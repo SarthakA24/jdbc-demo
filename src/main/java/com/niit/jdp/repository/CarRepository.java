@@ -5,6 +5,8 @@ import com.niit.jdp.model.Car;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CarRepository {
 
@@ -22,5 +24,11 @@ public class CarRepository {
         }
         // 3. return true if the query was executed successfully
         return numberOfRowsAffected > 0;
+    }
+
+    // Create a method to read all the data from the database
+    public List<Car> getAllCars(Connection connection) {
+        List<Car> carsList = new ArrayList<>();
+        return carsList;
     }
 }
