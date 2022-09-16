@@ -22,10 +22,6 @@ public class DatabaseService {
         return databaseConnection;
     }
 
-    public void setDatabaseConnection(Connection databaseConnection) {
-        this.databaseConnection = databaseConnection;
-    }
-
     // A method that can connect to the database
     public boolean connect() throws ClassNotFoundException, SQLException {
         // Step 1 - Load the JDBC Driver into the program memory
