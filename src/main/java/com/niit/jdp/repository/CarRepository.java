@@ -20,6 +20,7 @@ public class CarRepository {
             preparedStatement.setDouble(3, car.getCostInRupees());
             numberOfRowsAffected = preparedStatement.executeUpdate();
         }
-        return false;
+        // 3. return true if the query was executed successfully
+        return numberOfRowsAffected > 0;
     }
 }
