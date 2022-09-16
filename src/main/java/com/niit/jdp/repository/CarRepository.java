@@ -29,6 +29,8 @@ public class CarRepository {
     // Create a method to read all the data from the database
     public List<Car> getAllCars(Connection connection) {
         List<Car> carsList = new ArrayList<>();
+        // 1. create a SQL query to retrieve all the rows from the car table
+        String selectAllCarsQuery = "SELECT * FROM `carsales`.`car`;";
         return carsList;
     }
 }
