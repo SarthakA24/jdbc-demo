@@ -32,6 +32,15 @@ public class CarRepository {
         // 2. use the connection object to execute the query
         try (Statement readCarsStatement = connection.createStatement()) {
             ResultSet resultSet = readCarsStatement.executeQuery(selectAllCarsQuery);
+            // 3. iterate over the result set and create a car object for each row
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                String model = resultSet.getString("model");
+                double costInRupees = resultSet.getDouble("cost_in_rupees");
+                Car car = new Car(id, name, model, costInRupees);
+                carsList.add(car);
+            }
         }
         return carsList;
     }
