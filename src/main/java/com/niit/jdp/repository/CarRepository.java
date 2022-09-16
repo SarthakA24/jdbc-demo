@@ -42,6 +42,7 @@ public class CarRepository {
                 carsList.add(car);
             }
         }
+        // 3. return the list of cars
         return carsList;
     }
 }
