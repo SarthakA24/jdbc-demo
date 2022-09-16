@@ -16,6 +16,7 @@ public class Main {
             boolean isDatabaseConnected = databaseService.connect();
             System.out.println("isDatabaseConnected = " + isDatabaseConnected);
             if (databaseService.getDatabaseConnection() != null) {
+                databaseService.printConnectionStatus();
                 // prompt the user to input the car details to be added in the database
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Hello, please enter the details of your car");
