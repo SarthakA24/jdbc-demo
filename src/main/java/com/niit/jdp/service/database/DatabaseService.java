@@ -27,4 +27,12 @@ public class DatabaseService {
         // Step 3 - Check if the connection is successful
         return databaseConnection != null;
     }
+
+    public void printConnectionStatus() {
+        if (databaseConnection != null) {
+            System.out.println("Connected to the database!");
+        } else {
+            System.err.println("Not connected to the database!");
+        }
+    }
 }
