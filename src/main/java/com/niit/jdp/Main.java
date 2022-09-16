@@ -5,6 +5,7 @@ import com.niit.jdp.repository.CarRepository;
 import com.niit.jdp.service.database.DatabaseService;
 
 import java.sql.SQLException;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -24,6 +25,7 @@ public class Main {
                 String model = scanner.nextLine();
                 System.out.println("Please enter the cost of the car");
                 double cost = scanner.nextDouble();
+                // Create the car object the call the create car method to add the car in the database
                 Car car = new Car(0, name, model, cost);
                 CarRepository carRepository = new CarRepository();
                 boolean result = carRepository.createCarInDatabase(car, databaseService.getDatabaseConnection());
@@ -31,6 +33,12 @@ public class Main {
                     System.out.println("Car created successfully");
                 } else {
                     System.out.println("Car creation failed");
+                }
+                // Print all the cars from the database
+                System.out.println("=============================================");
+                List<Car> allCars = carRepository.getAllCars(databaseService.getDatabaseConnection());
+                for (Car carFromDatabase : allCars) {
+                    System.out.println(carFromDatabase);
                 }
             } else {
                 System.err.println("Not connected to the database");
