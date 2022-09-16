@@ -24,6 +24,7 @@ public class DatabaseService {
         Class.forName("com.mysql.cj.jdbc.Driver");
         // Step 2 - Create a database connection object using DriverManager class
         databaseConnection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        return false;
+        // Step 3 - Check if the connection is successful
+        return databaseConnection != null;
     }
 }
