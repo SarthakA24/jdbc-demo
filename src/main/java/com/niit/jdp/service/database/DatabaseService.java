@@ -12,8 +12,13 @@ public class DatabaseService {
     // A private field to store the reference of the connection object
     private Connection databaseConnection;
 
+    public DatabaseService() {
+        this.databaseConnection = null;
+    }
+
     // A method that can connect to the database
     public boolean connect() {
+
         return false;
     }
 }
