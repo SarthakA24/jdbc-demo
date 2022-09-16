@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="added getter and setter for database connection">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
+    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="printed all the cars in the database">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663316097982</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added the car object to thr database by calling thr create car method">
+      <created>1663316353463</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316353463</updated>
+    </task>
+    <task id="LOCAL-00029" summary="printed all the cars in the database">
+      <created>1663316436165</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316436165</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,8 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed the target and source JDK from 18 to 11" />
-    <MESSAGE value="added dependency for mysql connector" />
     <MESSAGE value="created the DatabaseService.java class" />
     <MESSAGE value="added the method signature for the connect() method" />
     <MESSAGE value="initialized the database connection to null" />
@@ -303,7 +315,9 @@
     <MESSAGE value="returned the list of cars" />
     <MESSAGE value="prompted the user to input the car details to be added in the database" />
     <MESSAGE value="added getter and setter for database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getter and setter for database connection" />
+    <MESSAGE value="added the car object to thr database by calling thr create car method" />
+    <MESSAGE value="printed all the cars in the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="printed all the cars in the database" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
