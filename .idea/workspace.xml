@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="created an object for the DatabaseService and connected to the database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="added the class CarRepository in the repository package">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/CarRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663309478917</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added the car class in the model package">
+      <created>1663315219987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315219987</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added the fields for car class">
+      <created>1663315246242</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315246242</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added the getter and setter methods and hashCode, toString and equals methods">
+      <created>1663315300156</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315300156</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added the class CarRepository in the repository package">
+      <created>1663315352784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315352784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +212,11 @@
     <MESSAGE value="checked if the connection is successful" />
     <MESSAGE value="added a method printConnectionStatus() to print the database connection status" />
     <MESSAGE value="created an object for the DatabaseService and connected to the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="created an object for the DatabaseService and connected to the database" />
+    <MESSAGE value="added the car class in the model package" />
+    <MESSAGE value="added the fields for car class" />
+    <MESSAGE value="added the getter and setter methods and hashCode, toString and equals methods" />
+    <MESSAGE value="added the class CarRepository in the repository package" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the class CarRepository in the repository package" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
