@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="initialized the database connection to null">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/service/database/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/service/database/DatabaseService.java" afterDir="false" />
+    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="created an object for the DatabaseService and connected to the database">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.jdp.Main" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,7 +109,49 @@
       <option name="project" value="LOCAL" />
       <updated>1663307417494</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initialized the database connection to null">
+      <created>1663308446041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663308446042</updated>
+    </task>
+    <task id="LOCAL-00007" summary="loaded the JDBC Driver into the program memory">
+      <created>1663308514489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663308514489</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created a database connection object using DriverManager class">
+      <created>1663308611450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663308611450</updated>
+    </task>
+    <task id="LOCAL-00009" summary="checked if the connection is successful">
+      <created>1663308652346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663308652346</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added a method printConnectionStatus() to print the database connection status">
+      <created>1663308728974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663308728974</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created an object for the DatabaseService and connected to the database">
+      <created>1663309398411</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663309398411</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +172,12 @@
     <MESSAGE value="created the DatabaseService.java class" />
     <MESSAGE value="added the method signature for the connect() method" />
     <MESSAGE value="initialized the database connection to null" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialized the database connection to null" />
+    <MESSAGE value="loaded the JDBC Driver into the program memory" />
+    <MESSAGE value="created a database connection object using DriverManager class" />
+    <MESSAGE value="checked if the connection is successful" />
+    <MESSAGE value="added a method printConnectionStatus() to print the database connection status" />
+    <MESSAGE value="created an object for the DatabaseService and connected to the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="created an object for the DatabaseService and connected to the database" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
