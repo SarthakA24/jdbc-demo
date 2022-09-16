@@ -2,9 +2,7 @@ package com.niit.jdp.repository;
 
 import com.niit.jdp.model.Car;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,10 +25,14 @@ public class CarRepository {
     }
 
     // Create a method to read all the data from the database
-    public List<Car> getAllCars(Connection connection) {
+    public List<Car> getAllCars(Connection connection) throws SQLException {
         List<Car> carsList = new ArrayList<>();
         // 1. create a SQL query to retrieve all the rows from the car table
         String selectAllCarsQuery = "SELECT * FROM `carsales`.`car`;";
+        // 2. use the connection object to execute the query
+        try (Statement readCarsStatement = connection.createStatement()) {
+            ResultSet resultSet = readCarsStatement.executeQuery(selectAllCarsQuery);
+        }
         return carsList;
     }
 }

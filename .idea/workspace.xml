@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="added the class CarRepository in the repository package">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/CarRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="created a SQL query to retrieve all the rows from the car table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +184,49 @@
       <option name="project" value="LOCAL" />
       <updated>1663315352784</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="created a method to write the Car object in the database using INSERT SQL Query">
+      <created>1663315539596</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315539596</updated>
+    </task>
+    <task id="LOCAL-00018" summary="wrote the SQL query for inserting a car row into the car table">
+      <created>1663315577556</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315577556</updated>
+    </task>
+    <task id="LOCAL-00019" summary="used the connection object to execute the query">
+      <created>1663315724726</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315724726</updated>
+    </task>
+    <task id="LOCAL-00020" summary="returned true if the query was executed successfully">
+      <created>1663315751543</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315751543</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created a method to read all the data from the database">
+      <created>1663315812194</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315812194</updated>
+    </task>
+    <task id="LOCAL-00022" summary="created a SQL query to retrieve all the rows from the car table">
+      <created>1663315834655</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315834655</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +256,13 @@
     <MESSAGE value="added the fields for car class" />
     <MESSAGE value="added the getter and setter methods and hashCode, toString and equals methods" />
     <MESSAGE value="added the class CarRepository in the repository package" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the class CarRepository in the repository package" />
+    <MESSAGE value="created a method to write the Car object in the database using INSERT SQL Query" />
+    <MESSAGE value="wrote the SQL query for inserting a car row into the car table" />
+    <MESSAGE value="used the connection object to execute the query" />
+    <MESSAGE value="returned true if the query was executed successfully" />
+    <MESSAGE value="created a method to read all the data from the database" />
+    <MESSAGE value="created a SQL query to retrieve all the rows from the car table" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a SQL query to retrieve all the rows from the car table" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
