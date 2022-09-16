@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="created a SQL query to retrieve all the rows from the car table" />
+    <list default="true" id="152be97a-3a23-4ccf-ad8c-e486b8a2da17" name="Changes" comment="added getter and setter for database connection">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +228,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663315834655</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="use the connection object to execute the query">
+      <created>1663315862223</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315862223</updated>
+    </task>
+    <task id="LOCAL-00024" summary="iterated over the result set and create a car object for each row">
+      <created>1663315902573</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315902573</updated>
+    </task>
+    <task id="LOCAL-00025" summary="returned the list of cars">
+      <created>1663315913114</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315913114</updated>
+    </task>
+    <task id="LOCAL-00026" summary="prompted the user to input the car details to be added in the database">
+      <created>1663316002987</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316002987</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added getter and setter for database connection">
+      <created>1663316097982</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316097982</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +278,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="changed the target and source JDK from 18 to 11" />
     <MESSAGE value="added dependency for mysql connector" />
     <MESSAGE value="created the DatabaseService.java class" />
@@ -262,7 +298,12 @@
     <MESSAGE value="returned true if the query was executed successfully" />
     <MESSAGE value="created a method to read all the data from the database" />
     <MESSAGE value="created a SQL query to retrieve all the rows from the car table" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a SQL query to retrieve all the rows from the car table" />
+    <MESSAGE value="use the connection object to execute the query" />
+    <MESSAGE value="iterated over the result set and create a car object for each row" />
+    <MESSAGE value="returned the list of cars" />
+    <MESSAGE value="prompted the user to input the car details to be added in the database" />
+    <MESSAGE value="added getter and setter for database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getter and setter for database connection" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
