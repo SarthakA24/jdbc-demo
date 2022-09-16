@@ -1,6 +1,8 @@
 package com.niit.jdp.service.database;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class DatabaseService {
 
@@ -17,9 +19,11 @@ public class DatabaseService {
     }
 
     // A method that can connect to the database
-    public boolean connect() throws ClassNotFoundException {
+    public boolean connect() throws ClassNotFoundException, SQLException {
         // Step 1 - Load the JDBC Driver into the program memory
         Class.forName("com.mysql.cj.jdbc.Driver");
+        // Step 2 - Create a database connection object using DriverManager class
+        databaseConnection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
         return false;
     }
 }
