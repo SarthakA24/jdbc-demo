@@ -17,8 +17,9 @@ public class DatabaseService {
     }
 
     // A method that can connect to the database
-    public boolean connect() {
-
+    public boolean connect() throws ClassNotFoundException {
+        // Step 1 - Load the JDBC Driver into the program memory
+        Class.forName("com.mysql.cj.jdbc.Driver");
         return false;
     }
 }
